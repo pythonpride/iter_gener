@@ -7,9 +7,7 @@ nested_list = [
 def flat_generator(nested_list):
     for el in nested_list:
         for item in el:
-            yield  item
-            
-
+            yield  item    
 
 for item in  flat_generator(nested_list):
 	print(item)
